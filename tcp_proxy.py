@@ -43,7 +43,10 @@ def request_handler(buffer):
     return buffer
 def response_handler(buffer):
     # perform packet modifications
-     return buffer
+    return buffer
+
+def proxy_handler(client_socket, remote_host, remote_port, recieve_first):
+    
 
 
 
